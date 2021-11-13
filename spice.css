@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body{
+    background: rgb(39, 24, 24);
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap:break-word !important;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+    margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Bree Serif', 'serif';
+}	
+.container {
+	margin: 0 auto;
+}
+p {
+	text-align: center;
+}
+header {
+	margin: 50px 0;
+	background-color: orangered;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+}
+header ul li {
+	display:inline-block;
+	background-color: #da461a;
+	}
+
+header a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+header a:hover { 
+	background-color: #000000; 
+}
+header ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+}
+header ul li:hover > ul {
+	display:inherit;
+}
+header ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}	
+header ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+
+
